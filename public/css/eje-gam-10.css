@@ -51,4 +51,5 @@ h3{
 }
 .boton:hover{
     background-color: #79DAE8;
+    cursor: pointer;
 }
