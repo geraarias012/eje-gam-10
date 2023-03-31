@@ -1,0 +1,33 @@
+body{
+    background-color: #E8F9FD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div-container{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+#div-img{
+    width: 50%;
+    position: relative;
+}
+#div-title{
+    width: 750%;
+    text-align-last: center;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 600%;
+}
+.boton{
+    padding: 5% 10% 5% 10%;
+    border-style: solid;
+    border-radius: 3%;
+    background-color: #E8F9FD;
+    border-color: black;
+}
+.boton:hover{
+    border-color: black;
+    background-color: lightblue;
+}
