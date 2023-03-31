@@ -1,11 +1,8 @@
 const express = require ("express");
-const app = express ()
+const app = express ();
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
-/*app.get ("/", (reg, res) => {
-    res.send();
-});*/
 app.get ("*", (reg, res) => {
     res.sendFile(__dirname+'/public/404.html');
 });
