@@ -23,7 +23,7 @@ h1{
 .boton{
     padding: 5% 10% 5% 10%;
     border-style: solid;
-    border-radius: 3%;
+    border-radius: 10px;
     background-color: #E8F9FD;
     border-color: black;
 }
