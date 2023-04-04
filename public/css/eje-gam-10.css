@@ -30,6 +30,10 @@ body{
     margin: 0 5% 3% 5%;
 }
 
+.class-input:focus{
+    text-align-last: center;
+}
+
 h1{
     font-size: 250%;
     color: #E8F9FD;
