@@ -3,7 +3,7 @@ function suma(){
     var num1 = parseInt(document.getElementById("num1").value);
     var num2 = parseInt(document.getElementById("num2").value);
     var suma = num1+num2;
-    resultado.innerHTML = suma;
+    resultado.innerHTML = `La suma es igual a${suma}`;
 }
 function resta(){
     var resultado = document.getElementById("resultado");
